@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: italic;
+            display: block;
+        }
+
+        .form-group{
+            margin-bottom: 1em;
+        }
+
+        .form-container{
+            background-color: palevioletred;
+            border: 5px solid black;
+            border-radius: 20px;
+            padding: 30px;
+            width: 400px;
+            margin: 200px auto;
+        }
+
+        body{
+            font-family: cursive;
+        }
+
+        h2{
+            text-align: center;
+        }
+        </style>
+
+</head>
+<body>
+    <legend>
+        <fieldset>
+    <div class="form-container">
+        <h2>Form Entry Data Pegawai</h2>
+    
+        <form method="post" action="">
+
+            <div class="form-group">
+                <label for="nik">NIK</label>
+                <input type="text" id="nik" name="">
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="tlahir">Tempat Lahir</label>
+                <input type="text" id="tlahir" name="">
+            </div>
+            <div class="form-group">
+                <label for="tgl">Tanggal lahir</label>
+                <input type="text" id="tgl" name="">
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="">
+            </div>
+            <div class="form-group">
+                <label for="telepon">No Telepon</label>
+                <input type="text" id="telepon" name="">
+            </div>
+            <div class="form-group">
+                <label for="jabatan">Jabatan</label>
+                <input type="text" id="jabatan" name="">
+            </div>
+            <div class="form-group">
+                <label for="status">Status</label>
+                <select name="status" id="status">
+                    <option value="mnkh">menikah</option>
+                    <option value="bm">belum menikah</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" value="save">
+            <input type="reset">
+        </form>
+    </div>
+    </fieldset>
+    </legend>
+</body>
+</html>
